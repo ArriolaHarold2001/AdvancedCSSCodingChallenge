@@ -18,20 +18,7 @@
   display: inline-block;
 }
 
-.box-item:nth-child(-2n + 8),
-.box-item:nth-child(9),
-.box-item:nth-child(-2n + 16) {
+.box-item:nth-child(-2n + 9),
+.box-item:nth-child(9) ~ div:nth-child(-2n + 15) {
   background-color: red;
-}
-
-.box:nth-child(-2n + 9),
-.box:nth-child(9) ~ .box:nth-child(-2n + 16),
-.box:nth-child(17) ~ .box:nth-child(-2n + 25),
-.box:nth-child(25) ~ .box:nth-child(-2n + 32),
-.box:nth-child(33) ~ div:nth-child(-2n + 41),
-.box:nth-child(41) ~ div:nth-child(-2n + 48),
-.box:nth-child(49) ~ div:nth-child(-2n + 57),
-.box:nth-child(57) ~ div:nth-child(-2n + 64) {
-  background-color: #441a03;
-  color: #fff;
 }
