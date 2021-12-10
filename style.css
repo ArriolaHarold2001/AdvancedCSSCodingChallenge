@@ -1,25 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+div {
+  color: red;
+  width: 25%;
+  float: left;
+  height: 200px;
 }
 
-.checkers {
-  margin: 60px auto;
-  height: 50vh;
-  width: 50vw;
-
-  display: grid;
-  grid-template-columns: repeat(8, 50px);
-  grid-template-rows: repeat(8, 50px);
-}
-
-div:nth-child(8n + 1) {
-  background-color: red;
-}
-.block-item {
-  width: 50px;
-  height: 50px;
-  padding: 25px;
-  /* background-color: #000; */
+div:nth-child(8n + 1),
+div:nth-child(8n + 3),
+div:nth-child(8n + 6),
+div:nth-child(8n + 8) {
+  background-color: black;
 }
