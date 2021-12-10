@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+P {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px;
+}
+P {
+  font-size: 25px;
+}
