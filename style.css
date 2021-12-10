@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 60px;
+}
+
+/* CHECKERED PATTERN ONE */
 .checkers {
-  border: 5px solid red;
   width: 1200px;
-  margin: 60px auto;
+  margin: 40px auto;
 
   display: grid;
   grid-template-columns: repeat(8, 70px);
@@ -18,7 +24,6 @@
 .box-item {
   background-color: #000;
   padding: 5px;
-  display: inline-block;
 }
 
 .box-item:nth-child(-2n + 8),
@@ -29,5 +34,14 @@
 .box-item:nth-child(40) ~ div:nth-child(-2n + 47),
 .box-item:nth-child(49) ~ div:nth-child(-2n + 56),
 .box-item:nth-child(56) ~ div:nth-child(-2n + 63) {
+  background-color: red;
+}
+
+.tbl-container {
+  width: 1200px;
+  margin: 60px auto;
+}
+
+td {
   background-color: red;
 }
