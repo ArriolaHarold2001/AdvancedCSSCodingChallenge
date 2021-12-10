@@ -1,8 +1,27 @@
 .tbl-container {
-  width: 1200px;
   margin: 60px auto;
+  width: 800px;
+  height: 456px;
 }
 
+.tbl-container,
 td {
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
   background-color: red;
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+
+.stars {
+  margin-top: -516px;
+}
+
+.stars img {
+  width: 288px;
+  height: 245px;
+  margin-left: 320px;
 }
