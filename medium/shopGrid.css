@@ -4,23 +4,51 @@
   box-sizing: border-box;
 }
 
-h1,
-P {
+h1 {
   text-align: center;
   text-transform: uppercase;
-  margin: 40px;
+  margin: 20px;
 }
 P {
   font-size: 25px;
+  text-align: center;
+}
+
+.price,
+.description {
+  font-size: 20px;
+}
+
+a:link,
+a:visited {
+  font-size: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,
+a:active {
+  animation-duration: 5s;
+  font-size: 11px;
+  color: red;
+}
+
+img {
+  width: 300px;
+  height: 298px;
 }
 
 .grid-container {
   margin: 60px auto;
-  width: 1200px;
+  /* width: 1200px; */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  gap: 15px;
 }
 
 .item {
-  background-color: red;
+  padding: 30px;
+  background-color: #f7f7f7f7;
+  box-shadow: 0px 3px 8px #000;
 }
