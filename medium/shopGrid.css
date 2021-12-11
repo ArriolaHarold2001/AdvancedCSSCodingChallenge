@@ -28,7 +28,7 @@ a:visited {
 
 a:hover,
 a:active {
-  animation-duration: 5s;
+  transition-duration: 0.7s;
   font-size: 11px;
   color: red;
 }
