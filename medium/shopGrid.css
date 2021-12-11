@@ -13,3 +13,14 @@ P {
 P {
   font-size: 25px;
 }
+
+.grid-container {
+  margin: 60px auto;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.item {
+  background-color: red;
+}
